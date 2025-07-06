@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const csvUrl = '../../assets/more_samples.csv?v=' + new Date().getTime();
+    const csvUrl = 'assets/more_samples.csv?v=' + new Date().getTime();
     let allData = [];
     const loadingOverlay = document.getElementById('loading-overlay');
 
