@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             const headerDiv = document.createElement('div');
             headerDiv.className = 'section-header';
-            headerDiv.innerHTML = `<h1 class="jumbotron-heading">${sectionTitle}</h1><img src="../../assets/arrow.svg" class="arrow-svg">`;
+            headerDiv.innerHTML = `<h1 class="jumbotron-heading">${sectionTitle}</h1><img src="assets/arrow.svg" class="arrow-svg">`;
 
             const contentDiv = document.createElement('div');
             contentDiv.className = 'section-content';
